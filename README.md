@@ -1,19 +1,15 @@
-# 🌟 Forever Clothing – Scalable MERN E-Commerce Platform
+#  FOREVER - Clothing E-Commerce Platform (MERN)
 
-![Architecture](https://img.shields.io/badge/Architecture-Scalable-blue?style=for-the-badge)
-![Stack](https://img.shields.io/badge/Stack-MERN-success?style=for-the-badge)
-![Auth](https://img.shields.io/badge/Auth-JWT-orange?style=for-the-badge)
-![Database](https://img.shields.io/badge/Database-MongoDB-green?style=for-the-badge)
 
 > A production-ready full-stack E-Commerce platform built using the MERN stack with scalable architecture, JWT authentication, cloud-based media storage, and modular backend design.
 
 ---
 
-# 🧠 System Design Overview 
+# System Design Overview 
 
 This project is designed following scalable full-stack architecture principles with clear separation between presentation, business logic, and data layers.
 
-## 🎯 Core Design Goals
+## Core Design Goals
 
 - Clear separation of concerns  
 - Stateless authentication  
@@ -24,7 +20,7 @@ This project is designed following scalable full-stack architecture principles w
 
 ---
 
-# 🏗️ High-Level Architecture
+# High-Level Architecture
 
 ```mermaid
 flowchart TD
@@ -47,9 +43,9 @@ flowchart TD
 
 ---
 
-# 📌 Architecture Explanation
+# Architecture Explanation
 
-## 🖥️ Frontend Layer (React)
+## Frontend Layer (React)
 
 - Handles UI rendering and routing  
 - Maintains client-side state  
@@ -59,7 +55,7 @@ flowchart TD
 
 ---
 
-## ⚙️ Backend Layer (Node.js + Express)
+## Backend Layer (Node.js + Express)
 
 - Implements RESTful APIs  
 - Handles business logic  
@@ -70,7 +66,7 @@ flowchart TD
 
 ---
 
-## 🗄️ Database Layer (MongoDB Atlas)
+## Database Layer (MongoDB Atlas)
 
 - NoSQL document-based storage  
 - Flexible schema design  
@@ -82,7 +78,7 @@ flowchart TD
 
 ---
 
-## ☁️ Cloud Storage
+## Cloud Storage
 
 - Product images stored in Cloudinary  
 - Only image URLs saved in database  
@@ -91,7 +87,7 @@ flowchart TD
 
 ---
 
-## 🔐 Authentication Strategy
+## Authentication Strategy
 
 - JWT-based stateless authentication  
 - Token generated at login  
@@ -101,7 +97,7 @@ flowchart TD
 
 ---
 
-# 🗃️ Database Design (ER Diagram)
+# Database Design (ER Diagram)
 
 ```mermaid
 erDiagram
@@ -139,9 +135,9 @@ erDiagram
 
 ---
 
-# 🔄 Application Flow
+# Application Flow
 
-## 🛒 User Shopping Flow
+## User Shopping Flow
 
 ```mermaid
 flowchart LR
@@ -155,7 +151,7 @@ flowchart LR
 
 ---
 
-## 🔐 Authentication Flow
+## Authentication Flow
 
 ```mermaid
 sequenceDiagram
@@ -174,7 +170,7 @@ sequenceDiagram
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```
 Forever-Clothing/
@@ -197,7 +193,7 @@ Forever-Clothing/
 └── README.md
 ```
 
-# ⚙️ Environment Setup
+# Environment Setup
 
 ## Backend `.env`
 
@@ -212,7 +208,7 @@ CLOUD_API_SECRET=your_api_secret
 
 ---
 
-# 🚀 Installation
+# Installation
 
 ```bash
 git clone https://github.com/bvlchowdary2006-alt/Forever-Clothing-E-Commerce-Platform-using-MERN.git
@@ -237,7 +233,7 @@ npm start
 
 ---
 
-# 🛡️ Security Implementation
+# Security Implementation
 
 - Password hashing using Bcrypt  
 - JWT token validation middleware  
@@ -247,7 +243,7 @@ npm start
 
 ---
 
-# 📈 Scalability Considerations
+# Scalability Considerations
 
 - Stateless authentication  
 - Cloud-based image hosting  
@@ -258,7 +254,7 @@ npm start
 
 ---
 
-# 🎯 Why This Project Stands Out
+# Why This Project Stands Out
 
 - Clean layered architecture  
 - Interview-ready system design explanation  
@@ -267,5 +263,3 @@ npm start
 - Scalable backend foundation  
 
 ---
-
-⭐ If you found this project helpful, consider giving it a star!
