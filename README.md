@@ -1,7 +1,7 @@
 #  FOREVER - Clothing E-Commerce Platform (MERN)
 
 
-> A production-ready full-stack E-Commerce platform built using the MERN stack with scalable architecture, JWT authentication, cloud-based media storage, and modular backend design.
+ A production-ready full-stack E-Commerce platform built using the MERN stack with scalable architecture, JWT authentication, cloud-based media storage, and modular backend design.
 
 ---
 
