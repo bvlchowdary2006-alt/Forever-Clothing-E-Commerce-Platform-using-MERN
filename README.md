@@ -1,11 +1,66 @@
-#  FOREVER - Clothing E-Commerce Platform (MERN)
+# FOREVER - Clothing E-Commerce Platform (MERN)
 
-
- A production-ready full-stack E-Commerce platform built using the MERN stack with scalable architecture, JWT authentication, cloud-based media storage, and modular backend design.
+A production-ready full-stack E-Commerce platform built using the MERN stack with scalable architecture, JWT authentication, cloud-based media storage, and modular backend design.
 
 ---
 
-# System Design Overview 
+# Live Demo
+
+Frontend (User Website):  
+https://forever-clothing-e-commerce-platform-li17.onrender.com/
+
+Admin Panel:  
+https://forever-clothing-e-commerce-platform-sfgd.onrender.com/
+
+---
+
+# Sample Credentials
+
+User Login  
+Email: user1@gmail.com  
+Password: user1123  
+
+---
+
+# Tech Stack
+
+- MongoDB (Database)
+- Express.js (Backend Framework)
+- React.js (Frontend Library)
+- Node.js (Runtime Environment)
+- JWT (Authentication)
+- Cloudinary (Media Storage)
+
+---
+
+# Screenshots
+
+## Home Page
+![Home1](./screenshots/Screenshot%202026-03-29%20110149.png)
+![Home2](./screenshots/Screenshot%202026-03-29%20110212.png)
+![Home3](./screenshots/Screenshot%202026-03-29%20110227.png)
+![Home4](./screenshots/Screenshot%202026-03-29%20110249.png)
+
+## Collections Page
+![Collection1](./screenshots/Screenshot%202026-03-29%20110302.png)
+![Collection2](./screenshots/Screenshot%202026-03-29%20110331.png)
+![Collection3](./screenshots/Screenshot%202026-03-29%20110416.png)
+
+## Cart Page
+![Cart](./screenshots/Screenshot%202026-03-29%20110530.png)
+
+## Place Order - Cash On Delivery
+![COD](./screenshots/Screenshot%202026-03-29%20110902.png)
+
+## Orders Page
+![Orders](./screenshots/Screenshot%202026-03-29%20111011.png)
+
+## Place Order - Stripe
+![Stripe](./screenshots/Screenshot%202026-03-29%20111432.png)
+
+---
+
+# System Design Overview
 
 This project is designed following scalable full-stack architecture principles with clear separation between presentation, business logic, and data layers.
 
@@ -71,10 +126,11 @@ flowchart TD
 - NoSQL document-based storage  
 - Flexible schema design  
 - Indexed queries for performance  
-- Separate collections:
-  - Users
-  - Products
-  - Orders  
+
+Collections:
+- Users  
+- Products  
+- Orders  
 
 ---
 
@@ -193,6 +249,8 @@ Forever-Clothing/
 └── README.md
 ```
 
+---
+
 # Environment Setup
 
 ## Backend `.env`
@@ -261,5 +319,3 @@ npm start
 - Production-like implementation  
 - Real-world e-commerce logic  
 - Scalable backend foundation  
-
----
